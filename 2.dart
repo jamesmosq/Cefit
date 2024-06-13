@@ -12,7 +12,10 @@ class Persona {
 
 void ejemplo() {
   var persona = Persona('Juan', 'Monroy',30);
+  var persona1 = Persona('James', 'Mosquera',30);
+
   persona.saludar();  // Salida: Hola, soy Juan y tengo 30 años.
+  persona1.saludar();
 }
 
 void main() {
