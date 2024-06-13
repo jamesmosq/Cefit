@@ -6,7 +6,7 @@ class Persona {
   Persona(this.nombre,this.apellido, this.edad);
 
   void saludar() {
-    print('Hola, soy $nombre y tengo $edad años.');
+    print('Hola, soy $nombre y tengo $edad años mi apellido es $apellido');
   }
 }
 
